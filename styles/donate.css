@@ -1,10 +1,13 @@
 *{
     margin:0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .header-section{
-    background-image: url('../images/donation0.jpg');
-    /* background-size: contain; */
+    /* background-image: url('../images/donation0.jpg');
+    background-size: contain; */
+    background-image:
+        linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+        url('../images/donation0.jpg');
     background-size: cover;
     max-width: 1140px;
     margin: 0 auto;
@@ -132,4 +135,54 @@ input{
 .donate-plan-section h3{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.contribute-section-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 60px;
+}
+.contribute-section-left .section-title{
+    text-align: left;
+}
+.contribute-section-left p{
+    margin-bottom: 20px;
+}
+.contribute-section-left img{
+    width: 45%;
+    border-radius: 5px;
+}
+.section-container-right{
+    padding-right: 60px;
+}
+.section-container-left{
+    padding-left: 60px;
+}
+
+
+.btn-background{
+    background-color: #FFF4D6;
+    padding:40px 80px;
+    border-radius: 5px;
+    width: 50%;
+    margin:auto;
+}
+.btn-background input{
+    text-align: left;
+    padding: 5px 20px;
+    border: 0;
+    background-color: #D9D9D9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:#AA9F9F;
+    
+}
+footer {
+
+    text-align: center;
+    background-color: #0B0D17;
+}
+footer h1{
+    font-family: Open ;
+    color:#fd5f0a
 }
