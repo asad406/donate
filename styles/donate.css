@@ -7,8 +7,8 @@
     /* background-size: contain; */
     background-size: cover;
     max-width: 1140px;
-    height: 350px;
     margin: 0 auto;
+    height: 350px;
     color: white;
     text-align: center;
     padding: 100px 200px;
@@ -37,6 +37,10 @@
     border-radius: 5px;
     border-style: none;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* Donate today section styles  */
 .donate-section{
@@ -47,12 +51,17 @@
     margin-bottom: 30px;
     font-size: 45px;
     font-weight: 700;
+    text-align: center;
   
 }
-.section-description{
+.section-description-center{
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 200px;
+   
+    
   
 }
 .donate-section ul{
@@ -98,3 +107,29 @@ input{
 
 /* Our Donate Plan section styles */
 
+.section-description-left{
+    text-align: left;
+}
+.donetion-plans{
+    display: flex;
+    gap: 30px;
+}
+.sub-donation-plan-food{
+    background-color:#EDF5F6 ;
+    border-radius: 5px;
+    padding: 40px 30px;
+}
+.sub-donation-plan-shelter{
+    background-color:#FFEEEE ;
+    border-radius: 5px;
+    padding: 40px 30px;
+}
+.sub-donation-plan-education{
+    background-color:#FFF4D6 ;
+    border-radius: 5px;
+    padding: 40px 30px;
+}
+.donate-plan-section h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
